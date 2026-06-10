@@ -14,3 +14,6 @@ Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R.
 * 07_individual_PGS_polypharmacy_associations.ipynb: scripts for examining the associations between polypharmacy and individual PGS
 
 ## Please note that all the analyses were running in the *All of Us* workbench, and access to the All of Us controlled tier data is required to execute all the scripts in this study.
+
+## The Jupyter notebooks in this repository are cleaned versions with all outputs removed to protect data privacy. Before reproducing the analyses, users will need to configure the appropriate data paths, tool paths, and environment settings according to their local or workspace setup.
+
