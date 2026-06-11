@@ -15,7 +15,7 @@ Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R.
 
 ### Please note that all the analyses were running in the *All of Us* workbench, and access to the All of Us controlled tier data is required to execute all the scripts in this study.
 
-### The Jupyter notebooks provided in this repository are cleaned versions with all outputs removed to comply with the data privacy and security requirements of the *All of Us* Research Program. To reproduce the analyses, authorized access to the *All of Us* Researcher Workbench is required, and users must configure the appropriate data paths, tool paths, and environment settings for their local or workspace setup.
+### The Jupyter notebooks provided in this repository are cleaned versions with all outputs removed to comply with the data privacy and security requirements of the *All of Us* Research Program. To reproduce the analyses, authorized access to the *All of Us* Researcher Workbench is required, and users must configure the appropriate data paths, tool paths, and environment settings for their workspace setup.
 
 ## Support
 If you have any questions, please reach out to Pengyao.Ping@adelaide.edu.au
