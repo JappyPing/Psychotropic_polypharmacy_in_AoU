@@ -15,16 +15,18 @@ Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R.
 * `06_multi_clinical_PGSs_predict_polypharmacy.ipynb`: Performs integrated clinical and multi-trait polygenic modelling of complex polypharmacy.
 * `07_individual_PGS_polypharmacy_associations.ipynb`: Examines associations between polypharmacy and individual polygenic scores.
 
-### Important note
-
-All analyses were conducted in the *All of Us* Researcher Workbench. Access to *All of Us* Controlled Tier data is required to execute the full analysis workflow.
-
 ### Reproducing the analysis
 
 * Run `run_analysis_python.ipynb` to execute the complete workflow. **(recommended)**
 * Alternatively, run notebooks `01_functions.ipynb` through `07_individual_PGS_polypharmacy_associations.ipynb` sequentially. When running the notebooks individually, users must configure the required data paths, software paths, and environment variables for their own workspace.
 
 All notebooks in this repository are cleaned versions with outputs removed to comply with the privacy and data-security requirements of the *All of Us* Research Program. Reproducing the analyses requires authorized access to the *All of Us* Researcher Workbench and the relevant Controlled Tier data.
+
+### Important note
+
+* All analyses were conducted in the *All of Us* Researcher Workbench. Access to *All of Us* Controlled Tier data is required to execute the full analysis workflow.
+* All notebooks in this repository are cleaned versions with outputs removed to comply with the privacy and data-security requirements of the *All of Us* Research Program.
+* If you encounter errors while running any part of the analysis, they are most likely caused by incorrect file paths, missing dependencies, environment-specific configuration issues, or typographical errors introduced when notebook outputs were removed and the files were cleaned for public release.
 
 ## Support
 
