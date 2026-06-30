@@ -1,3 +1,4 @@
+
 # Psychotropic polypharmacy in *All of Us*
 
 Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R. Clark, Azmeraw T. Amare. Psychotropic polypharmacy is a marker of diagnostic uncertainty, social adversity, and externalising vulnerability: clinical and polygenic evidence from the *All of Us*cohort
@@ -22,7 +23,7 @@ Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R.
     git clone https://github.com/JappyPing/Psychotropic_polypharmacy_in_AoU.git
     ```
 * **Step 2:** Run the analysis
-  * Option 1: Run `run_analysis_python.ipynb` to execute the complete workflow. **(recommended)**
+  * Option 1: In Verily workbench, select the "Python [conda env:jupyter]" as the kernel for `run_analysis_python.ipynb` , then run the notebook to execute its complete workflow. All required dependencies will be installed automatically, and the R environment will be created during execution. **(recommended)**
   * Option 2: Alternatively, run notebooks `01_functions.ipynb` through `07_individual_PGS_polypharmacy_associations.ipynb` sequentially. When running the notebooks individually, users must configure the required data paths, software paths, and environment kernels and variables for their own workspace.
 
 ### Important note
