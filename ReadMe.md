@@ -1,4 +1,3 @@
-
 # Psychotropic polypharmacy in *All of Us*
 
 Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R. Clark, Azmeraw T. Amare. Psychotropic polypharmacy is a marker of diagnostic uncertainty, social adversity, and externalising vulnerability: clinical and polygenic evidence from the *All of Us*cohort
@@ -18,12 +17,13 @@ Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R.
 
 ### Reproducing the analysis
 
-* **Step 1:** download this repo
+* **Step 1:** Clone or download this repo
   * ```Shell
-    git clone [github.com/JappyPing/Psychotropic_polypharmacy_in_AoU.git](https://github.com/JappyPing/Psychotropic_polypharmacy_in_AoU.git)
+    git clone https://github.com/JappyPing/Psychotropic_polypharmacy_in_AoU.git
     ```
-* Run `run_analysis_python.ipynb` to execute the complete workflow. **(recommended)**
-* Alternatively, run notebooks `01_functions.ipynb` through `07_individual_PGS_polypharmacy_associations.ipynb` sequentially. When running the notebooks individually, users must configure the required data paths, software paths, and environment kernels and variables for their own workspace.
+* **Step 2:** Run the analysis
+  * Option 1: Run `run_analysis_python.ipynb` to execute the complete workflow. **(recommended)**
+  * Option 2: Alternatively, run notebooks `01_functions.ipynb` through `07_individual_PGS_polypharmacy_associations.ipynb` sequentially. When running the notebooks individually, users must configure the required data paths, software paths, and environment kernels and variables for their own workspace.
 
 ### Important note
 
