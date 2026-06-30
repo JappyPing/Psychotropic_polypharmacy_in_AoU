@@ -4,18 +4,28 @@ Supplement to: K. Oliver Schubert, Pengyao Ping, Vijayaprakash Suppiah, Scott R.
 
 ## Notebooks
 
-* 01_functions.ipynb: functions used for extracting data and analysis
-* 02_cohort_data_collection.ipynb: scripts for extracting non-genetic data and epidemiology analysis
-* 03_association_analysis.ipynb: scripts for examining the association of polypharmacy with sociodemographic and clinical outcomes
-* 04_01_merge_phenotype_PGS.ipynb: scripts for merging phenotype data with polygenic scores and PCs
-* 04_02_genotype_data_extraction_and_preprocessing.ipynb: scripts for extracting whole genome sequencing data, data preprocessing and quality control
-* 05_PGS_PRScs.ipynb: scripts for polygenic score calculation using PRS-CS
-* 06_multi_clinical_PGSs_predict_polypharmacy.ipynb: scripts for the integrated clinical and multi-trait polygenic modelling of complex polypharmacy
-* 07_individual_PGS_polypharmacy_associations.ipynb: scripts for examining the associations between polypharmacy and individual PGS
+* `00_creating_workspace_bucket.ipynb`: Creates the storage bucket used for this project.
+* `00_Setting_Env_Variables.ipynb`: Configures the required workspace environment variables.
+* `01_functions.ipynb`: Contains functions used for data extraction and analysis.
+* `02_cohort_data_collection_analysis.ipynb`: Extracts non-genetic data and performs epidemiological analyses.
+* `03_association_analysis.ipynb`: Examines associations between polypharmacy and sociodemographic and clinical characteristics.
+* `04_01_merge_phenotype_PGS.ipynb`: Merges phenotype data with polygenic scores and genetic principal components.
+* `04_02_genotype_data_extraction_and_preprocessing.ipynb`: Extracts whole-genome sequencing data and performs preprocessing and quality control.
+* `05_PGS_PRScs.ipynb`: Calculates polygenic scores using PRS-CS.
+* `06_multi_clinical_PGSs_predict_polypharmacy.ipynb`: Performs integrated clinical and multi-trait polygenic modelling of complex polypharmacy.
+* `07_individual_PGS_polypharmacy_associations.ipynb`: Examines associations between polypharmacy and individual polygenic scores.
 
-### Please note that all the analyses were running in the *All of Us* workbench, and access to the *All of Us* controlled tier data is required to execute all the scripts in this study.
+### Important note
 
-### The Jupyter notebooks provided in this repository are cleaned versions with all outputs removed to comply with the data privacy and security requirements of the *All of Us* Research Program. To reproduce the analyses, authorized access to the *All of Us* Researcher Workbench is required, and users must configure the appropriate data paths, tool paths, and environment settings for their workspace setup.
+All analyses were conducted in the *All of Us* Researcher Workbench. Access to *All of Us* Controlled Tier data is required to execute the full analysis workflow.
+
+### Reproducing the analysis
+
+* Run `run_analysis_python.ipynb` to execute the complete workflow.
+* Alternatively, run notebooks `01_functions.ipynb` through `07_individual_PGS_polypharmacy_associations.ipynb` sequentially. When running the notebooks individually, users must configure the required data paths, software paths, and environment variables for their own workspace.
+
+All notebooks in this repository are cleaned versions with outputs removed to comply with the privacy and data-security requirements of the *All of Us* Research Program. Reproducing the analyses requires authorized access to the *All of Us* Researcher Workbench and the relevant Controlled Tier data.
 
 ## Support
+
 If you have any questions, please reach out to Pengyao.Ping@adelaide.edu.au
