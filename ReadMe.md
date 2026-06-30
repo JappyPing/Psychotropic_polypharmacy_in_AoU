@@ -21,7 +21,7 @@ All analyses were conducted in the *All of Us* Researcher Workbench. Access to *
 
 ### Reproducing the analysis
 
-* Run `run_analysis_python.ipynb` to execute the complete workflow.
+* Run `run_analysis_python.ipynb` to execute the complete workflow. **(recommended)**
 * Alternatively, run notebooks `01_functions.ipynb` through `07_individual_PGS_polypharmacy_associations.ipynb` sequentially. When running the notebooks individually, users must configure the required data paths, software paths, and environment variables for their own workspace.
 
 All notebooks in this repository are cleaned versions with outputs removed to comply with the privacy and data-security requirements of the *All of Us* Research Program. Reproducing the analyses requires authorized access to the *All of Us* Researcher Workbench and the relevant Controlled Tier data.
